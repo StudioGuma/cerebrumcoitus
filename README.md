@@ -13,6 +13,7 @@ Brainfuck was created by Urban Müller in 1993 and designed to be as minimalist 
 * `,` — read one byte from standard input and store it in the data pointer
 * `[` — jump ahead to the matching `]` if the value in the data pointer is 0
 * `]` — jump behind to the matching `[` if the value in the data pointer is not 0
+
 All other characters are ignored and used as comments.
 
 Building requires a C compiler, preferably GCC, and Make. In the terminal, just type `make` to build, `./cerebrumsex <file>` to execute, and `make clean` to clean.
