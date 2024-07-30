@@ -16,6 +16,6 @@ Brainfuck was created by Urban Müller in 1993 and designed to be as minimalist 
 
 All other characters are ignored and used as comments.
 
-Building requires a C compiler, preferably GCC, and Make. In the terminal, just type `make` to build, `./cerebrumsex <file>` to execute, and `make clean` to clean.
+Building requires a C compiler, preferably GCC, and Make. In the terminal, just type `make` to build, `./cerebrumcoitus <file>` to execute, and `make clean` to clean.
 
 Linux executable size: 16.3 KiB
