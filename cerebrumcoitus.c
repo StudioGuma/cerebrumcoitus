@@ -205,5 +205,5 @@ int main(int argc, char *argv[])
 		perror("close()");
 		FREE_AND_EXIT(EXIT_FAILURE)
 	}
-	FREE_AND_EXIT(EXIT_SUCCESS);
+	FREE_AND_EXIT(EXIT_SUCCESS)
 }
