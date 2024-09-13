@@ -86,7 +86,7 @@ off_t match_brackets(off_t offset, int fd, const char TARGET)
 int main(int argc, char *argv[])
 {
 	if (argc != 2) {
-		fprintf(stderr, "Usage: cerebrumsex <file>\n");
+		fprintf(stderr, "Usage: cerebrumcoitus <file>\n");
 		exit(EXIT_FAILURE);
 	}
 
