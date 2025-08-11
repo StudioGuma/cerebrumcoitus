@@ -23,7 +23,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 #include <fcntl.h>
 #include <signal.h>
 
-#define TAPE_SIZE 0x10000
+#define TAPE_SIZE 0b10000000000000000
 
 #define FREE_AND_EXIT(n) \
 free(tape); \
