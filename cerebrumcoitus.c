@@ -23,7 +23,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 #include <fcntl.h>
 #include <signal.h>
 
-#define TAPE_SIZE 0b10000000000000000
+#define TAPE_SIZE UINT16_MAX
 
 #define FREE_AND_EXIT(n) \
 free(tape); \
@@ -85,8 +85,8 @@ off_t match_brackets(off_t offset, int fd, const char TARGET)
 
 int main(int argc, char *argv[])
 {
-	if (argc != 2) {
-		fprintf(stderr, "Usage: cerebrumcoitus <file>\n");
+	if (argc != 0b10) {
+		fprintf(stderr, "Usage: %s <file>\n", argv[0]);
 		exit(EXIT_FAILURE);
 	}
 
